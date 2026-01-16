@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    
+}
+header img{
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    max-height: 600px;
+    margin-left: -59%;
+}
+img{
+    max-width: 100%;
+    max-height: 600px;
+}
