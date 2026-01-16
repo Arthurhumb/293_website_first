@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang= "fr">
+    <head>
+        <title>
+            Contactez-nous
+        </title>
+        <meta charset="utf-8">
+        <meta name="description" content="je vous présente un petit résumé de mes passion">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="le_ski.html">le ski</a>
+                </li>
+                <li>
+                    <a href="La_rando.html">la rando</a>
+                </li>
+                <li>
+                    <a href="la_photo-Video.html">la photo/video</a>
+                </li>
+            </ul>
+        </header>
+        <a href="index.html" title="home" target="_blank">home</a>
+        <div>
+        <h1>contacer nous </h1>
+        <p>utiliser ce formulaire pour reserver une activité </p>
+        <form>
+            <label for="nom-id">nom *</label>
+            <input type="text" id="nom-id" name="nom"><br>
+            <label for="prenom-id">Prénom *</label>
+            <input type="text" id="prenom-id"><br>
+            <label for="adresse-id">adresse *</label>
+            <input type="text" id="adresse-id"><br>
+            <label for="lieu-id">lieu *</label>
+            <input type="text" id="lieu-id"><br>
+            <label for="npa-id">N° postale (NPA) *</label>
+            <input type="number" id="npa-id"><br>
+            <div>
+            <p>votre commande <br></p>
+            <label>Activité voté </label> <br>
+            <input type="checkbox" name="matérielle[]" value="joystique"> ski
+            <input type="checkbox" name="matérielle[]" value="pédale">rando
+            <input type="checkbox" name="matérielle[]" value="star citizen starter pack">photo/video
+            <br><br>
+            nombre de personne *<br>
+            <select name="quantité">
+                <option value="1" selected="selected">1</option>
+                <option value="2" >2</option>
+                <option value="3">3</option>
+            </select><br><br>
+            <label>moyen de payement *</label> <br>
+            <input type="radio" name="payement a la livraison" value="payement a la livraisont"> payement aux guichet
+            <input type="radio" name="carte bancaire" value="carte bancaire"> carte bancaire
+            <input type="radio" name="paypal" value="paypal"> paypal<br><br>
+            </div>
+            <label>message</label>
+            <textarea rows="3" id="message-id" name="message"></textarea> <br><br>
+            <input type="checkbox" name="condition[]" value="conditiongenerales"> J'accepte les conditions générales *
+            <br><br>
+            <input type="submit" value="Envoyer">  
+        </div>
+        </form>
+    </body>
+</html>
